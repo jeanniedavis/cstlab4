@@ -3,3 +3,21 @@ body {
     text-align:center;
     
 }
+
+nav a{ /* links within "nav" container */
+    padding: 15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color:black; /* by default links are blue */
+}
+nav a:hover{ /* pseudo class*/
+    color:blue;
+    font-size: 2em;
+    transition: .9s; /* transition effect */
+}
+
+p {
+    font-size: 20px;
+    font-weight:bolder;
+}

@@ -1,15 +1,30 @@
-<!DOCUTYPE html>
-<html>
-    <head>
-        <title> The Solar System</title>
-    </head>
-    <body>
+    <%- include('partials/header.ejs') %>
         <h1>Welcome to the Solar System Site!</h1>
-        <p>Click on a planet to know more about it: </p>
-        <a href"/mercury"> Mercury </a><br>
-        <a href"/venus"> Mercury </a><br>
-        Earth <br>
-        <p> Welcome to Mercury!</p>
+        <h3>Click on a planet to know more about it: </h3>
         
-    </body>
-</html>
+         <nav>
+            <a href="/mercury"> Mercury </a>
+            <a href="/venus"> Venus </a>
+            <a href="/earth"> Earth </a>
+            <a href="/mars"> Mars </a>
+            <a href="/jupiter"> Jupiter </a>
+            <a href="/saturn"> Saturn </a>
+            <a href="/uranus"> Uranus </a>
+            <a href="/neptune"> Neptune </a>
+        </nav>
+        <img src="/img/mercury.jpg" alt="Mercury" />
+
+        <p> Welcome to Mercury!</p>
+        <div> Fun Facts about Mercury</div>
+        <ul>
+            <li> Mercury is the smallest planet in our solar system</li>
+            <li> Mercury is the closest to the sun</li>
+            <li> Mercury is the fastest planet, zipping around the Sun every 88 Earth days</li>
+            <li>Mercury does not have any moons or rings.</li>
+            <li>Your weight on Mercury would be 38% of your weight on Earth.</li>
+            <li>A day on the surface of Mercury lasts 176 Earth days.</li>
+            <li>It’s not known who discovered Mercury.</li>
+            <li>Mercury is only the second hottest planet.</li>
+            <li>Mercury is the most cratered planet in the Solar System.</li>
+        </ul>
+      <%- include('partials/footer.ejs') %>
